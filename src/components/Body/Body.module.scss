@@ -1,0 +1,29 @@
+.bodyDiv{
+    height: 100%;
+    position: relative;
+    top: 86px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    
+    .widget{
+        width: 80%;
+        cursor: pointer;
+        >img{
+            width: 100%;
+        }
+        
+    }
+
+    .imageSlider{
+        width: 80%;
+        height: 10;
+
+        &:first-child{
+            padding: 1rem;
+        }
+    }
+}
+
